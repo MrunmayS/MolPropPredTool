@@ -1,6 +1,6 @@
-# QM9Tool
+# MolPropPred
  
-## QMTool V0.1
+## MolPropPred V0.1
 
 
 ### Prerequisites
@@ -37,7 +37,7 @@ pip install -r requirements.txt
 ```
 -------------------------------------------------------------------------------
 
-## QM9Tool Usage :
+## MolPropPred Usage :
 
 ```bash
 python3 main.py <SMILE-string>
