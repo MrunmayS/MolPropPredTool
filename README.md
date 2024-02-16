@@ -1,6 +1,6 @@
-# MolPropPred
+# MolPropPredTool
  
-## MolPropPred V0.1
+## MolPropPredTool V0.1
 
 
 ### Prerequisites
@@ -22,8 +22,8 @@ It is recommended to use a Virtual Environment to install the dependencies. You 
 other Linux based operating systems and MacOS. 
 
 1.	Install virtualenv with `pip install virtualenv`. 
-2.	Create the virtual environment with `virtualenv qm9`. 
-3.	Activate the virtual environment with `source qm9/bin/activate`. 
+2.	Create the virtual environment with `virtualenv venv`. 
+3.	Activate the virtual environment with `source venv/bin/activate`. 
 4.	Install the dependencies in the virtual environment with 	`pip install -r requirements.txt`.
 5.	Type `deactivate` to deactivate the 	Virutal Environment once you are done.
 
@@ -31,13 +31,13 @@ or run the following
 
 ```bash
 pip install virtualenv
-virtualenv qm9
-source qm9/bin/activate
+virtualenv venv
+source venv/bin/activate
 pip install -r requirements.txt
 ```
 -------------------------------------------------------------------------------
 
-## MolPropPred Usage :
+## MolPropPredTool Usage :
 
 ```bash
 python3 main.py <SMILE-string>
